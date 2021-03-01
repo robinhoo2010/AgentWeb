@@ -39,11 +39,11 @@ dependencies {
     compile project(':agentweb-core')
 }
 publish {
-    userOrg = 'just'
-    groupId = 'com.just.agentweb'
+    userOrg = 'robin'
+    groupId = 'com.robin.agentweb'
     artifactId = 'filechooser'
     publishVersion = '4.1.4'
-    desc = 'very easy to build you web page'
-    website = "https://github.com/Justson/AgentWeb"
+    desc = 'very easy to build you web page, base on https://github.com/Justson/AgentWeb'
+    website = "https://github.com/robinhoo2010/AgentWeb.git"
 
 }
