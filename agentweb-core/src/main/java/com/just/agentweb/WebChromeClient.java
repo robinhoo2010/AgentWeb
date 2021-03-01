@@ -7,6 +7,7 @@ import android.webkit.ValueCallback;
 import android.webkit.WebView;
 
 /**
+ * 2021-03-01 开放文件选择，以便可以自定义文件选择
  * @author cenxiaozhong
  * @date 2019/4/13
  * @since 1.0.0
@@ -22,7 +23,6 @@ public class WebChromeClient extends MiddlewareWebChromeBase{
 									 FileChooserParams fileChooserParams) {
 		return super.onShowFileChooser(webView, filePathCallback, fileChooserParams);
 	}
-
 
 	/**
 	 * Android  >= 4.1
